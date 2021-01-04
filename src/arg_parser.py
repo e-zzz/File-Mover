@@ -8,5 +8,5 @@ def initialize_parser():
     """
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("-root", "--root", help=r"Root destination -> C:\...")
+    parser.add_argument("-root", "--root", help=r"Root destination -> C:\...\")
     return parser.parse_args()
